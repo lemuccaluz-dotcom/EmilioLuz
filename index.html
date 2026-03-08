@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GiftDraw — Intercambio de Regalos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+<!-- ═══════════════════ NAVBAR ═══════════════════ -->
+<nav class="navbar navbar-index sticky-top">
+  <div class="container-fluid px-4">
+
+    <!-- Logo + nombre app -->
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+      <img src="img/logo.png" alt="Logo" width="32" height="32"
+           style="border-radius:8px; border:1px solid var(--border);">
+      GiftDraw
+    </a>
+
+    <!-- Integrantes del equipo -->
+    <span class="nav-names">
+      Emilio Luz &nbsp;&bull;&nbsp; Eduardo Pedroza
+    </span>
+
+  </div>
+</nav>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section class="hero">
+
+  <div class="hero-content">
+
+    <!-- Logo pill -->
+    <div class="logo-pill">
+      <img src="img/logo.png" alt="GiftDraw Logo">
+      <div class="logo-pill-text">
+        <span class="logo-pill-name">GiftDraw</span>
+        <span class="logo-pill-sub">Sistema de intercambio de regalos</span>
+      </div>
+    </div>
+
+    <!-- Título principal -->
+    <h1 class="hero-title">
+      Organiza tu<br>
+      <span class="accent-blue">intercambio</span> de<br>
+      <span class="accent-green">regalos</span> fácil
+    </h1>
+
+    <!-- Subtítulo -->
+    <p class="hero-sub">
+      Crea el sorteo perfecto con exclusiones, presupuesto personalizado
+      y resultados instantáneos. Sin complicaciones.
+    </p>
+
+    <!-- CTAs -->
+    <div class="cta-wrap">
+      <a href="evento.html" class="btn-cta btn-cta-primary">
+        🎲 Crear intercambio
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </a>
+      <a href="#como-funciona" class="btn-cta btn-cta-ghost">
+        ¿Cómo funciona?
+      </a>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-row">
+      <div class="stat-pill"><span>🎁</span> Sin límite de participantes</div>
+      <div class="stat-pill"><span>🚫</span> Exclusiones personalizadas</div>
+      <div class="stat-pill"><span>💾</span> Datos guardados localmente</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════ FEATURES ═══════════════════ -->
+<section class="features">
+  <div class="container" style="max-width:960px">
+    <h2 class="features-title">Todo lo que necesitas 🎯</h2>
+
+    <div class="row g-3">
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="feature-card card-blue">
+          <span class="feature-icon">👑</span>
+          <h3>Organiza el evento</h3>
+          <p>Nombre, celebración, fecha y presupuesto en un solo lugar.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="feature-card card-green">
+          <span class="feature-icon">👥</span>
+          <h3>Agrega participantes</h3>
+          <p>Sin límite. Reordénalos con drag & drop como quieras.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="feature-card card-purple">
+          <span class="feature-icon">🚫</span>
+          <h3>Define exclusiones</h3>
+          <p>Indica quién no puede regalarle a quién. El sorteo lo respeta.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="feature-card card-amber">
+          <span class="feature-icon">🎲</span>
+          <h3>Sorteo inteligente</h3>
+          <p>Resultados aleatorios respetando todas las restricciones.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ PASOS ═══════════════════ -->
+<section class="steps" id="como-funciona">
+  <div class="container" style="max-width:560px">
+    <h2 class="steps-title">¿Cómo funciona? 🤔</h2>
+
+    <div class="step-item">
+      <div class="step-num blue">1</div>
+      <div class="step-text">
+        <h4>Captura los datos del evento</h4>
+        <p>Nombre del organizador, tipo de celebración, fecha y presupuesto por persona.</p>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num green">2</div>
+      <div class="step-text">
+        <h4>Agrega a los participantes</h4>
+        <p>Escribe los nombres uno a uno. Puedes reordenarlos arrastrando.</p>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num amber">3</div>
+      <div class="step-text">
+        <h4>Configura exclusiones (opcional)</h4>
+        <p>¿Alguien no puede regalarle a cierta persona? Márcalo con un clic.</p>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num rose">4</div>
+      <div class="step-text">
+        <h4>¡Realiza el sorteo!</h4>
+        <p>El sistema asigna cada participante respetando todas las reglas. Listo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER CTA ═══════════════════ -->
+<section class="footer-cta">
+  <div class="footer-cta-card">
+    <h2>¿Listo para sortear? 🎉</h2>
+    <p>Crea tu intercambio en menos de 2 minutos.</p>
+    <a href="evento.html" class="btn-cta btn-cta-primary" style="display:inline-flex">
+      🎁 Empezar ahora
+    </a>
+  </div>
+</section>
+
+<script>
+document.querySelector('a[href="#como-funciona"]').addEventListener("click", e => {
+  e.preventDefault()
+  document.getElementById("como-funciona").scrollIntoView({ behavior: "smooth" })
+})
+</script>
+
+</body>
+</html>
